@@ -132,6 +132,7 @@ img {
 .video p {
   text-align: left;
   margin-top: 1.13rem;
+  font-size: 0.85rem;
 }
 .video {
   width: calc(25% - 1rem);
@@ -183,5 +184,44 @@ img {
 .video:hover .watch_now {
   display: block;
 }
-
 /* Online games area style end */
+
+/* Play Instantly style start */
+.play_instant_area {
+  margin-top: 6rem;
+  display: flex;
+}
+.play_instant_left_info,
+.play_instant_right_img {
+  width: 50%;
+}
+.play_instant_left_info {
+  /* margin: auto;
+  padding-right: 8rem; */
+  padding-top: 16rem;
+  padding-right: 12rem;
+}
+.play_instant_left_info h2 {
+  font-size: 2.25rem;
+  text-align: right;
+}
+.play_instant_left_info p {
+  text-align: right;
+  font-size: 0.85rem;
+  margin-top: 1.15rem;
+  margin-left: 10rem;
+}
+.play_instant_right_img {
+  width: 50%;
+  position: relative;
+  /* left: 10%; */
+}
+.play_instant_right_img :last-child {
+  width: 40%;
+  position: absolute;
+  top: 65%;
+  right: 75%;
+  /* left: -0.8rem; */
+}
+
+/* Play Instantly style end */
