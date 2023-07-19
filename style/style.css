@@ -50,7 +50,8 @@ img {
   align-items: center;
   gap: 0.9rem;
 }
-.nav_left_logo img {
+.nav_left_logo img,
+.footer_brand img {
   width: 65px;
 }
 .g_ltr_clr {
@@ -258,3 +259,53 @@ img {
   color: var(--primary-color);
 }
 /* Games icon style end */
+
+/* Footer style start */
+.footer_area {
+  background-color: #0b0223;
+  /* min-height: 20rem; */
+  display: flex;
+  flex-direction: column;
+  padding: 5.7rem 0;
+}
+.footer_brand {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3.4rem;
+}
+
+.footer_brand h3 {
+  color: white;
+  font-size: 2.11rem;
+}
+.footer_menu,
+.footer_terms_n_policy,
+.footer_copyright p {
+  display: flex;
+  justify-content: center;
+  gap: 2.81rem;
+}
+.footer_menu a,
+.footer_terms_n_policy a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.85rem;
+}
+.footer_social_icon {
+  display: flex;
+  justify-content: center;
+  margin: 3.4rem auto;
+}
+.footer_social_icon > a > img {
+  width: 40%;
+}
+.footer_terms_n_policy a,
+.footer_copyright p {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 1.5rem;
+}
+
+/* Footer style end */
