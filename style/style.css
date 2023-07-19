@@ -309,12 +309,51 @@ img {
 
 /* || Media Query for Tablet Devices */
 @media screen and (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+  /* Banner info media query start */
   .banner_info {
     padding: 3rem 0;
   }
   .banner_left_info button {
     margin-right: 0;
   }
+  /* Banner info media query end */
+
+  /* Online games media query start */
+  .videos_area {
+    justify-content: space-around;
+  }
+  .video {
+    width: 40%;
+    margin-left: 0;
+  }
+  /* Online games media query end */
+
+  /* Play Instantly media query start */
+  .play_instant_area {
+    margin-top: 0;
+    flex-direction: column;
+  }
+  .play_instant_left_info,
+  .play_instant_right_img {
+    width: 100%;
+  }
+  .play_instant_left_info {
+    margin-top: 4rem;
+    padding-top: 0;
+  }
+
+  .play_instant_left_info p {
+    margin-bottom: 2rem;
+  }
+  .play_instant_right_img {
+    width: 80%;
+    margin-left: 5rem;
+  }
+
+  /* Play Instantly media query end */
 }
 
 /* || Media Query for Mobile Devices */
@@ -398,7 +437,7 @@ img {
   .play_instant_right_img {
     width: 80%;
     position: relative;
-    left: 4rem;
+    left: -1rem;
   }
   .play_instant_right_img :last-child {
     width: 40%;
