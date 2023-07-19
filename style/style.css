@@ -196,8 +196,6 @@ img {
   width: 50%;
 }
 .play_instant_left_info {
-  /* margin: auto;
-  padding-right: 8rem; */
   padding-top: 16rem;
   padding-right: 12rem;
 }
@@ -214,14 +212,49 @@ img {
 .play_instant_right_img {
   width: 50%;
   position: relative;
-  /* left: 10%; */
 }
 .play_instant_right_img :last-child {
   width: 40%;
   position: absolute;
   top: 65%;
   right: 75%;
-  /* left: -0.8rem; */
 }
-
 /* Play Instantly style end */
+
+/* Games icon style start */
+.games_icon_area {
+  margin-top: 5.6rem;
+  background-color: #fff9fc;
+  /* background-color: #ddd; */
+}
+.games_icon {
+  padding: 5rem 0.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1.73rem;
+}
+.icon img {
+  width: 2.81rem;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  background-color: #fff;
+  border-radius: 2rem;
+  padding: 0.5rem;
+}
+.icon p {
+  font-size: 0.95rem;
+  color: #0b0223;
+  font-weight: 700;
+}
+.icon:hover {
+  border: 1px solid var(--primary-color);
+}
+.icon:hover p {
+  color: var(--primary-color);
+}
+/* Games icon style end */
