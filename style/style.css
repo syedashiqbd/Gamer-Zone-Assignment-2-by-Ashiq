@@ -423,15 +423,14 @@ img {
   .icon p {
     font-size: 0.55rem;
   }
+  /* Games icon media query end */
 
+  /* Footer media query start */
   .footer_menu,
   .footer_terms_n_policy,
   .footer_copyright p {
     flex-wrap: wrap;
     gap: 2.81rem;
-  }
-  .footer_menu a,
-  .footer_terms_n_policy a {
   }
 
   .footer_social_icon {
@@ -451,7 +450,7 @@ img {
   }
 
   .footer_copyright p {
-    margin-top: 2.5rem;
+    margin-top: 3.5rem;
   }
   /* Footer media query end */
 }
