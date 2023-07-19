@@ -355,18 +355,55 @@ img {
   }
   /* navbar media query end   */
 
-  /* Online games area start */
+  /* Online games media query start */
   .online_games_area {
     width: 100%;
   }
   .online_games_area h2 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin-top: 1.5rem;
   }
-  .video {
-    width: 90%;
-    height: auto;
-    margin-left: 2rem;
+  .online_games_area p {
+    font-size: 0.8rem;
   }
-  /* Online games area end */
+  .video {
+    width: 80%;
+    height: auto;
+    margin-left: 2.8rem;
+  }
+  /* Online games media query end */
+
+  /* Play Instant media query start */
+  .play_instant_area {
+    margin-top: 6rem;
+    flex-direction: column;
+  }
+  .play_instant_left_info,
+  .play_instant_right_img {
+    width: 100%;
+  }
+  .play_instant_left_info {
+    padding: 0;
+  }
+  .play_instant_left_info h2 {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  .play_instant_left_info p {
+    text-align: center;
+    font-size: 0.65rem;
+    margin: 2rem 0;
+  }
+  .play_instant_right_img {
+    width: 90%;
+    position: relative;
+    left: 2rem;
+  }
+  .play_instant_right_img :last-child {
+    width: 40%;
+    position: absolute;
+    top: 65%;
+    right: 75%;
+  }
+  /* Play Instant media query end */
 }
