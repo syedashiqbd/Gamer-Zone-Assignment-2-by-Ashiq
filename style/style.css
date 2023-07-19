@@ -226,7 +226,6 @@ img {
 .games_icon_area {
   margin-top: 5.6rem;
   background-color: #fff9fc;
-  /* background-color: #ddd; */
 }
 .games_icon {
   padding: 5rem 0.2rem;
@@ -263,7 +262,6 @@ img {
 /* Footer style start */
 .footer_area {
   background-color: #0b0223;
-  /* min-height: 20rem; */
   display: flex;
   flex-direction: column;
   padding: 5.7rem 0;
@@ -322,6 +320,9 @@ img {
 /* || Media Query for Mobile Devices */
 @media screen and (max-width: 426px) {
   /* navbar media query start */
+  .container {
+    width: 90%;
+  }
   header {
     margin-left: 2.5rem;
   }
@@ -395,9 +396,9 @@ img {
     margin: 2rem 0;
   }
   .play_instant_right_img {
-    width: 90%;
+    width: 80%;
     position: relative;
-    left: 2rem;
+    left: 4rem;
   }
   .play_instant_right_img :last-child {
     width: 40%;
@@ -406,4 +407,51 @@ img {
     right: 75%;
   }
   /* Play Instant media query end */
+
+  /* Games icon media query start */
+  .games_icon_area {
+    margin-top: 2rem;
+  }
+  .games_icon {
+    padding: 3rem 0;
+    gap: 0;
+  }
+  .icon img {
+    width: 1.2rem;
+  }
+
+  .icon p {
+    font-size: 0.55rem;
+  }
+
+  .footer_menu,
+  .footer_terms_n_policy,
+  .footer_copyright p {
+    flex-wrap: wrap;
+    gap: 2.81rem;
+  }
+  .footer_menu a,
+  .footer_terms_n_policy a {
+  }
+
+  .footer_social_icon {
+    margin: 3.4rem auto;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .footer_social_icon > a > img {
+    width: 30%;
+  }
+  .footer_terms_n_policy {
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 0 auto;
+    gap: 0.5rem;
+  }
+
+  .footer_copyright p {
+    margin-top: 2.5rem;
+  }
+  /* Footer media query end */
 }
