@@ -307,5 +307,66 @@ img {
   color: rgba(255, 255, 255, 0.6);
   margin-top: 1.5rem;
 }
-
 /* Footer style end */
+
+/* || Media Query for Tablet Devices */
+@media screen and (max-width: 768px) {
+  .banner_info {
+    padding: 3rem 0;
+  }
+  .banner_left_info button {
+    margin-right: 0;
+  }
+}
+
+/* || Media Query for Mobile Devices */
+@media screen and (max-width: 426px) {
+  /* navbar media query start */
+  header {
+    margin-left: 2.5rem;
+  }
+  .navbar {
+    gap: 3.5rem;
+    margin: 4rem auto 1rem;
+  }
+  .navbar,
+  .nav_right_menu {
+    flex-direction: column;
+  }
+  .nav_left_logo {
+    justify-content: center;
+  }
+  .banner_area {
+    background: none;
+  }
+  .banner_info {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .banner_left_info,
+  .banner_right_img {
+    width: 100%;
+  }
+  .banner_left_info {
+    background-image: url("../images/Group14.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3rem;
+  }
+  /* navbar media query end   */
+
+  /* Online games area start */
+  .online_games_area {
+    width: 100%;
+  }
+  .online_games_area h2 {
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+  }
+  .video {
+    width: 90%;
+    height: auto;
+    margin-left: 2rem;
+  }
+  /* Online games area end */
+}
