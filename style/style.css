@@ -1,12 +1,66 @@
 /* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap");
 
+/* Shared style start */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/* Common style start */
-/* Common style end */
-body {
-  background-color: green;
+:root {
+  --primary-color: #ff42a5;
+  --secondary-color: #4ec5f7;
 }
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+/* Shared style end */
+
+/* nav bar style start */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  min-height: 5.5rem;
+}
+.nav_left_logo {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+.nav_left_logo img {
+  width: 65px;
+}
+.g_ltr_clr {
+  color: var(--primary-color);
+}
+.nav_right_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.nav_right_menu a {
+  /* margin-left: 1.5rem; */
+  text-decoration: none;
+  color: #3c354f;
+  font-size: 0.85rem;
+}
+.nav_right_icon {
+  padding: 0.6rem 1.13rem;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  display: flex;
+  gap: 0.8rem;
+}
+
+/* nav bar style end */

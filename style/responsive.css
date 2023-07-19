@@ -1,13 +1,7 @@
 /* || Media Query for Tablet Devices */
 @media screen and (max-width: 768px) {
-  body {
-    background-color: blue;
-  }
 }
 
 /* || Media Query for Mobile Devices */
 @media screen and (max-width: 426px) {
-  body {
-    background-color: red;
-  }
 }
