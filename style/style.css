@@ -32,6 +32,11 @@ img {
   font-size: 0.95rem;
   color: white;
 }
+.gradient {
+  background: linear-gradient(to bottom, #f948b2, #8758f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 /* Shared style end */
 
 /* nav bar style start */
@@ -94,9 +99,6 @@ img {
   font-size: 4.45rem;
   font-weight: 700;
   text-transform: uppercase;
-  background: linear-gradient(to bottom, #f948b2, #8758f1);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 .banner_left_info p {
   color: #534c64;
@@ -110,5 +112,76 @@ img {
 .banner_left_info button:nth-last-child(1) {
   background: #4ec5f7;
 }
-
 /* banner area style end */
+
+/* Online games area style start */
+.online_games_area {
+  text-align: center;
+}
+.online_games_area h2 {
+  margin: 5.63rem auto 1rem;
+  font-size: 2.25rem;
+}
+.videos_area {
+  margin-top: 2.25rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.13rem;
+  flex-wrap: wrap;
+}
+.video p {
+  text-align: left;
+  margin-top: 1.13rem;
+}
+.video {
+  width: calc(25% - 1rem);
+  height: 20.5rem;
+  position: relative;
+}
+
+.video:hover img {
+  border: 3px solid var(--primary-color);
+  border-radius: 15px;
+}
+.video::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 99%;
+  height: 99%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+  border-radius: 14px;
+}
+.video:hover::before {
+  display: block;
+}
+.play_button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  background-image: url("../images/play-button.png");
+  background-size: cover;
+  display: none;
+}
+.video:hover .play_button {
+  display: block;
+}
+.watch_now {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ff42a5;
+  display: none;
+}
+
+.video:hover .watch_now {
+  display: block;
+}
+
+/* Online games area style end */
