@@ -329,6 +329,9 @@ img {
     width: 40%;
     margin-left: 0;
   }
+  .video::before {
+    height: 87%;
+  }
   /* Online games media query end */
 
   /* Play Instantly media query start */
