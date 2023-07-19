@@ -24,6 +24,14 @@ img {
   width: 100%;
 }
 
+.primary_btn {
+  padding: 0.9rem 1.8rem;
+  border-radius: 2.25rem;
+  background-color: var(--primary-color);
+  border: none;
+  font-size: 0.95rem;
+  color: white;
+}
 /* Shared style end */
 
 /* nav bar style start */
@@ -62,5 +70,45 @@ img {
   display: flex;
   gap: 0.8rem;
 }
-
 /* nav bar style end */
+
+/* banner area style start */
+.banner_area {
+  background-image: url("../images/Group14.png");
+  background-repeat: no-repeat;
+}
+.banner_info {
+  display: flex;
+  align-items: center;
+}
+.banner_left_info,
+.banner_right_img {
+  width: 50%;
+}
+.banner_left_info h2 {
+  color: #0b0223;
+  font-size: 2.25rem;
+  text-transform: uppercase;
+}
+.banner_left_info h1 {
+  font-size: 4.45rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: linear-gradient(to bottom, #f948b2, #8758f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner_left_info p {
+  color: #534c64;
+  font-size: 0.95rem;
+  margin-top: 0.8rem;
+}
+.banner_left_info button {
+  margin-top: 1.92rem;
+  margin-right: 1.13rem;
+}
+.banner_left_info button:nth-last-child(1) {
+  background: #4ec5f7;
+}
+
+/* banner area style end */
