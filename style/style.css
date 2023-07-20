@@ -245,6 +245,7 @@ img {
   background-color: #fff;
   border-radius: 2rem;
   padding: 0.5rem;
+  border: 1px solid transparent;
 }
 .icon p {
   font-size: 0.95rem;
